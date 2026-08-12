@@ -23,9 +23,10 @@ WinMgmt_PS_Toolkit/
 ### Cach 1: Chay truc tiep tu GitHub (Khong can tai file ve may)
 **Buoc 1:** Mo **PowerShell voi quyen Administrator** tren may tram
 **Buoc 2:** Chay 1 trong cac lenh sau:
+```
 #### Phuong phap A - Dung Remote-Loader.ps1 (Khuyen nghi)
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force iex (iwr "https://raw.githubusercontent.com/vynguyenit/WinMgmt_PS_Toolkit/main/Remote-Loader.ps1" -UseBasicParsing).Content
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr "https://raw.githubusercontent.com/vynguyenit/WinMgmt_PS_Toolkit/main/Remote-Loader.ps1" -UseBasicParsing).Content
 ```
 
 #### Phuong phap B - One-liner truc tiep (khong can Remote-Loader.ps1)
@@ -174,5 +175,5 @@ Sau do chay 1 trong cac lenh o muc **Cach 1** ben tren.
 
 ## Ngắn gọn: trên máy trạm, mở PowerShell Admin, chạy:
    ```powershell
-   Set-ExecutionPolicy Bypass -Scope Process -Force iex (iwr "https://raw.githubusercontent.com/vynguyenit/WinMgmt_PS_Toolkit/main/Remote-Loader.ps1" -UseBasicParsing).Content
+   Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr "https://raw.githubusercontent.com/vynguyenit/WinMgmt_PS_Toolkit/main/Remote-Loader.ps1" -UseBasicParsing).Content
 ```
