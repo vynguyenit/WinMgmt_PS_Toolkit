@@ -1,6 +1,7 @@
 ```markdown
 # He Thong Quan Ly Windows - PowerShell Toolkit
-Bo cong cu quan tri he thong Windows bang PowerShell, bao gom **1 Menu chinh** (Parent) va **3 nhom chuc nang** (Child).
+Bo cong cu quan tri he thong Windows bang PowerShell,
+bao gom **1 Menu chinh** (Parent) va **3 nhom chuc nang** (Child).
 ---
 ## 📁 Cau truc file
 ```
