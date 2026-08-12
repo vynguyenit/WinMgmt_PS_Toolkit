@@ -182,5 +182,5 @@ Sau do chay 1 trong cac lenh o muc **Cach 1** ben tren.
 
 ## Ngắn gọn: trên máy trạm, mở PowerShell Admin, chạy:
    ```powershell
-   Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr "https://raw.githubusercontent.com/vynguyenit/WinMgmt_PS_Toolkit/main/Remote-Loader.ps1" -UseBasicParsing).Content
+   Set-ExecutionPolicy Bypass -Scope Process -Force iex (iwr "https://raw.githubusercontent.com/vynguyenit/WinMgmt_PS_Toolkit/main/Remote-Loader.ps1" -UseBasicParsing).Content
 ```
