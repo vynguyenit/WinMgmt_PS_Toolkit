@@ -25,7 +25,7 @@ WinMgmt_PS_Toolkit/
 **Buoc 2:** Chay 1 trong cac lenh sau:
 #### Phuong phap A - Dung Remote-Loader.ps1 (Khuyen nghi)
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr "https://raw.githubusercontent.com/vynguyenit/WinMgmt_PS_Toolkit/main/Remote-Loader.ps1" -UseBasicParsing).Content
+Set-ExecutionPolicy Bypass -Scope Process -Force iex (iwr "https://raw.githubusercontent.com/vynguyenit/WinMgmt_PS_Toolkit/main/Remote-Loader.ps1" -UseBasicParsing).Content
 ```
 
 #### Phuong phap B - One-liner truc tiep (khong can Remote-Loader.ps1)
@@ -65,12 +65,10 @@ Khi chay tu xa, cac file duoc tai ve:
 ```
 C:\Users\<username>\AppData\Local\WinMgmt_PS_<so-ngau-nhien>\
 ```
-
 Vi du:
 ```
 C:\Users\Admin\AppData\Local\WinMgmt_PS_4336\
 ```
-
 **Luu y:** Thu muc nay **tu dong bi xoa** sau khi ban thoat khoi Menu chinh hoac khi script ket thuc.
 
 ---
