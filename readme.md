@@ -4,15 +4,12 @@ Bo cong cu quan tri he thong Windows bang PowerShell,
 bao gom **1 Menu chinh** (Parent) va **3 nhom chuc nang** (Child).
 ---
 ## 📁 Cau truc file
-```
 [Thu muc chua script]
 │
 ├── MainMenu.ps1                  ← Menu chinh (Parent)
 ├── SystemInfo_License.ps1        ← Nhom 1: Thong tin he thong & Ban quyen
 ├── Install_Software.ps1          ← Nhom 2: Cai dat phan mem & Cong cu van phong
 └── SystemOptimize_Printer.ps1    ← Nhom 3: Toi uu, Xu ly loi & Quan ly may in
-```
-
 > **Quan trong:** Ca 4 file phai dat trong cung mot thu muc de MainMenu co the goi duoc cac file con.
 
 ---
