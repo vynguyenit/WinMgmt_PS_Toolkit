@@ -8,7 +8,6 @@ Bo cong cu quan tri he thong Windows bang PowerShell, ho tro chay **truc tiep tu
 
 ## 📁 Cau truc file tren repo
 
-```
 WinMgmt_PS_Toolkit/
 │
 ├── MainMenu.ps1                  ← Menu chinh (Parent)
@@ -17,18 +16,13 @@ WinMgmt_PS_Toolkit/
 ├── SystemOptimize_Printer.ps1    ← Nhom 3: Toi uu, Xu ly loi & Quan ly may in
 ├── Remote-Loader.ps1             ← Remote Loader (tai va chay tu xa)
 └── README.md                      ← Huong dan su dung
-```
 
 ---
 
 ## 🚀 Cach su dung
-
 ### Cach 1: Chay truc tiep tu GitHub (Khong can tai file ve may)
-
 **Buoc 1:** Mo **PowerShell voi quyen Administrator** tren may tram
-
 **Buoc 2:** Chay 1 trong cac lenh sau:
-
 #### Phuong phap A - Dung Remote-Loader.ps1 (Khuyen nghi)
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr "https://raw.githubusercontent.com/vynguyenit/WinMgmt_PS_Toolkit/main/Remote-Loader.ps1" -UseBasicParsing).Content
